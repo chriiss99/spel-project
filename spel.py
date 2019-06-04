@@ -7,10 +7,16 @@ def room2 ():
         väg1()
     else: 
         print("Du tar upp föremålet och forsätter framåt")  
-        väg1()    
+        väg1()
+
+def bakom2 ():
+    Answer = input("du ser att det inte finns en bakdörr, vad gör du")
+    print("går in i en portal")
+    väg1()
+  
 
 #Förändring
-def bakom ():
+def bakom():
     Answer = (input("snabbt! skjuter du eller slår du zombien?\nskjuter)\nslår):")) 
     if(Answer == "skjuter"): 
         print("zombien dog, du rör dig sakta framåt")
