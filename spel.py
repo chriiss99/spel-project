@@ -9,7 +9,7 @@ def room2 ():
         print("Du tar upp föremålet och forsätter framåt")  
         väg1()    
 
-#Förändring!
+#Förändring
 def bakom ():
     Answer = (input("snabbt! skjuter du eller slår du zombien?\nskjuter)\nslår):")) 
     if(Answer == "skjuter"): 
